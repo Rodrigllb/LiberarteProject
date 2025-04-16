@@ -76,7 +76,7 @@
                     <section class="descricao-autor">
                         <h3>José Liberato</h3>
                         <small>Escritor, Compositor e Radialista</small>
-                        <p>Sou José Liberato Design e sempre busco atender às expectativas dos meus clientes. Levantar e fazer algo é o ingrediente mais importante. É simples assim. Muitas pessoas têm ideias, mas poucas decidem agir hoje, e não amanhã, não na próxima semana, mas hoje. O verdadeiro empreendedor age em vez de apenas sonhar. Apenas aqueles que ousam enfrentar grandes fracassos alcançam grandes sucessos. Um empreendedor enxerga oportunidades onde os outros só veem problemas. Vamos em frente!</p>
+                        <p>Olá! Eu sou José Liberato, sempre busco atender às expectativas dos meus clientes. Levantar e fazer algo é o ingrediente mais importante. É simples assim. Muitas pessoas têm ideias, mas poucas decidem agir hoje, e não amanhã, não na próxima semana, mas hoje. O verdadeiro empreendedor age em vez de apenas sonhar. Apenas aqueles que ousam enfrentar grandes fracassos alcançam grandes sucessos. Um empreendedor enxerga oportunidades onde os outros só veem problemas. Vamos em frente!</p>
                     </section>
                     <section class="fotografia-do-autor">
                         <img src="./../../assets/joselib-autor.jpg" alt="autor fotografia">

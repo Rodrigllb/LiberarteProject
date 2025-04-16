@@ -8,7 +8,7 @@
 
             <nav>
                 <ul>
-                    <li><a href="#">Nossos Livros</a></li>
+                    <li><a href="#">Inicio</a></li>
                     <li><a href="https://wa.link/9cg7g0" target="_blank">Whatsapp</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a id="link-buy" href="https://go.hotmart.com/F98346505C?dp=1" target="_blank">COMPRE AGORA</a></li>
@@ -40,6 +40,7 @@
 
 
 <script>
+
 export default {
     name: 'barraMenu',
 }
@@ -54,11 +55,11 @@ document.addEventListener('DOMContentLoaded', function domLoaded() {
         execMenu.addEventListener('click', function abrirMenu(){
             if(menuExec.style.display === 'none' || menuExec.style.display === '') {
                 menuExec.style.display = 'flex';
-                console.log('arquivo carregado');
+                console.log('arquivo carregado com sucesso.');
             }
             else {
                 menuExec.style.display = 'none';
-                
+                console.log('arquivo carregado com sucesso.')
             }
         });
     }
@@ -66,11 +67,6 @@ document.addEventListener('DOMContentLoaded', function domLoaded() {
         console.error('elemento não carregado');
     }
 });
-
-
-
-
-
 
 </script>
 
@@ -124,23 +120,20 @@ document.addEventListener('DOMContentLoaded', function domLoaded() {
         border: none;
     }
 
-    #menu-aberto {
+    #menu-aberto { /*Elemento que aparece quando o menu é executado. */
         transition: 0.5s ease;
         display: none;
         position: fixed;
         align-content: center;
         flex-direction: column; 
         padding: 25px;
-        background-color: #f2f2f2;
+        background-color: #f2f2f2b7;
+        backdrop-filter: blur(10px);
+        border: 1px #ffff solid;
         color: #0D0D0D;
-        width: 100vw;
+        width: 100vw    ;
         height: 45vh;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    }
-
-    #menu-aberto .logoLA {
-        width: 105px;
-        height: auto;
     }
 
     #menu-aberto h2, small {
@@ -181,13 +174,7 @@ document.addEventListener('DOMContentLoaded', function domLoaded() {
     @media (max-width: 1120px) {
 
 
-        /****CONTAINER PRINCIPAL****/
-        #container-principal {  
-            
-        }
-
-
-        /******CABEÇALHO*******/
+         /******CABEÇALHO*******/
         header {
         
         width: 100vw;
